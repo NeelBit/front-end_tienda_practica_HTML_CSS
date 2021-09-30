@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Store - Nosotros</title>
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<!-- Front-End de tienda online, CSS con enfoque BEM -->
+<body>
+    <header class="header">
+
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo web frontend store">
+        </a>
+
+    </header>
+
+    <nav class="nav">
+
+        <a class="nav__item" href="index.html">Tienda</a>
+
+        <a class="nav__item nav__item--activo" href="nosotros.html">Nosotros</a>
+
+    </nav>
+
+    <main class="contenedor">
+
+        <h1>Sobre nosotros</h1>
+
+        <div class="contenedor">
+            <div class="nosotros">
+
+                <div class="nosotros__contenido">
+                    <p>
+                    In ultrices sapien magna, nec iaculis turpis dictum pulvinar. Nunc aliquet mattis diam, at mollis augue auctor eu.
+                    Donec dapibus porta velit, ut lacinia sapien ultricies ac. Curabitur aliquam interdum nibh ut congue. Morbi semper non magna et sollicitudin.
+                    Mauris lacus neque, posuere et nulla eget, sagittis fermentum sapien.</p>
+                    <p>
+                    Integer pharetra eu magna vitae dictum. 
+                    Sed ac egestas lacus, at fermentum sem. Proin efficitur quam ut libero mattis, at accumsan nunc pulvinar. Fusce tincidunt nunc quis semper tempor.
+                    Nam consequat porttitor facilisis. Integer luctus elementum lacinia. Maecenas a magna volutpat, consequat urna in, elementum sem.</p>
+                </div>
+
+                <img class="nosotros__img" src="img/nosotros.jpg" alt="imagen sobre nosotros">
+
+            </div>
+        </div>
+
+        <section class="contenedor comprar">
+
+            <h2 class="comprar__titulo">¿Por qué comprar con nosotros?</h2>
+
+            <div class="bloques">
+
+                <figure class="bloque">
+                    <img class="bloque__img" src="img/icono_1.png" alt="el mejor precio">
+                    <h3 class="bloque__titulo">El mejor precio</h3>
+                    <figcaption class="bloque__info">El mejor precio del mercado local.</figcaption>
+                </figure>
+
+                <figure class="bloque">
+                    <img class="bloque__img" src="img/icono_2.png" alt="">
+                    <h3 class="bloque__titulo">Para Dev`s</h3>
+                    <figcaption class="bloque__info">Ideal para desarrolladores y reflejar tu pasión en tu apariencia.</figcaption>
+                </figure>
+
+                <figure class="bloque">
+                    <img class="bloque__img" src="img/icono_3.png" alt="">
+                    <h3 class="bloque__titulo">Envio gratis</h3>
+                    <figcaption class="bloque__info">Lo enviamos sin costo a tu ubicación.</figcaption>
+                </figure>
+
+                <figure class="bloque">
+                    <img class="bloque__img" src="img/icono_4.png" alt="">
+                    <h3 class="bloque__titulo">La mejor calidad</h3>
+                    <figcaption class="bloque__info">Ofrecemos alta calidad a un precio competitivo.</figcaption>
+                </figure>
+
+            </div>      <!-- bloques -->
+
+        </section>  <!-- comprar -->
+
+    </main>
+
+    <footer class="footer"><p class="footer__texto">Todos los derechos reservados <small class="footer__year">2021</small>.</p> <address class="footer__autor">By Neel</address></footer>
+
+</body>
+</html>

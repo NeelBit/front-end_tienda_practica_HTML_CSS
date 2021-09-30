@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Store - Producto</title>
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<!-- Front-End de tienda online, CSS con enfoque BEM -->
+<body>
+    <header class="header">
+
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo web frontend store">
+        </a>
+
+    </header>
+
+    <nav class="nav">
+
+        <a class="nav__item nav__item--activo" href="index.html">Tienda</a>
+
+        <a class="nav__item" href="nosotros.html">Nosotros</a>
+
+    </nav>
+
+    <main class="contenedor">
+
+        <h1>Producto</h1>
+
+        <div class="remera">
+
+            <img class="remera__img" src="img/7.jpg" alt="remera ">
+
+            <div class="remera__contenido">
+
+                <p>Remera de HTML5, el Lenguaje de maquetado de hipertexto en su revisión 5, es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros…</p>
+            
+
+                <form class="remera__formulario" action="" method="get">
+
+                    <div class="remera__medida">
+                        <label for="madida">Medida</label>
+                        <select name="medida" id="medida" required>
+                            <option value="" selected disabled>-->Seleccione el tamaño de su remera<--</option>
+                            <option value="s">s</option>
+                            <option value="m">m</option>
+                            <option value="l">l</option>
+                            <option value="xl">xl</option>
+                        </select>
+                    </div>
+
+                    <div class="remera__cantidad">
+                        <label for="cantidad">Cantidad</label>
+                        <input type="number" name="cantidad" id="cantidad" min="1" value="1"required>
+                    </div>
+
+                    <input class="remera__btn" type="submit" value="Hacer pedido">
+                
+                </form>
+
+            </div>
+
+            
+        </div>
+
+    </main>
+
+    <footer class="footer"><p class="footer__texto">Todos los derechos reservados <small class="footer__year">2021</small>.</p> <address class="footer__autor">By Neel</address></footer>
+
+</body>
+</html>
